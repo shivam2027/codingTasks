@@ -1,2 +1,2 @@
 # codingTasks
-Contain code files of Task1 and Task2 
+Contain code files of Task2 
