@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Task 1</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="header-1">
+            <div class="site-branding">
+                <img width="595" height="87" src="logo-white-1-2.png" class="custom-logo" alt="TheNewsHive" srcset=""
+                    sizes="(max-width: 595px) 100vw, 595px" />
+            </div>
+        </div>
+        <div class="header-2">
+            <div class="container">
+                <div class="row">
+                    <div class="menu-primary-container">
+                        <span class="menu-toggle"><i class="fas fa-bars"></i></span>
+                        <ul id="menu-primary" class="menunav-menu" aria-expanded="false">
+                            <li id="menu-item1" class="home">
+                                <a href="tast1.html" aria-current="page">HOME</a>
+                            </li>
+                            <li id="menu-item2" class="news">
+                                <a href="/action.php">NEWS</a>
+                            </li>
+                            <li id="menu-item3" class="world">
+                                <a href="/action.php">WORLD</a>
+                            </li>
+                            <li id="menu-item4" class="business">
+                                <a href="/action.php">BUSINESS</a>
+                            </li>
+                            <li id="menu-item5" class="politics">
+                                <a href="/action.php">POLITICS</a>
+                            </li>
+                            <li id="menu-item6" class="entertainment">
+                                <a href="/action.php">ENTERTAINMENT</a>
+                            </li>
+                            <li id="menu-item7" class="sports">
+                                <a href="/action.php">SPORTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-action">
+                        <div class="searchBox">
+                            <input type="text" class="searchText" placeholder="Search Latest News">
+                            <a href="#" class="searchBtn">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content" id="content">
+        <!-- nwd=news weather date -->
+        <div class="nwd">
+            <div class="nwd-inner">
+                <div class="nwd-news">
+                    <span class="nwd-weather">
+                        <svg aria-hidden="true" focusable="false" width="18" height="15" class="magazine_blocks-icon"
+                            xmlns="https://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                            <path
+                                d="M8.90179 4.33928C9.00893 4.45833 9.02976 4.58929 8.96429 4.73214L4.14286 15.0625C4.06548 15.2113 3.94048 15.2857 3.76786 15.2857C3.74405 15.2857 3.70238 15.2798 3.64286 15.2679C3.54167 15.2381 3.46429 15.1815 3.41071 15.0982C3.3631 15.0149 3.35119 14.9256 3.375 14.8304L5.13393 7.61607L1.50893 8.51786C1.48512 8.52381 1.4494 8.52679 1.40179 8.52679C1.29464 8.52679 1.20238 8.49405 1.125 8.42857C1.01786 8.33929 0.979167 8.22321 1.00893 8.08036L2.80357 0.714285C2.82738 0.630952 2.875 0.562499 2.94643 0.508928C3.01786 0.455357 3.10119 0.428571 3.19643 0.428571H6.125C6.2381 0.428571 6.33333 0.467261 6.41071 0.544642C6.4881 0.616071 6.52679 0.70238 6.52679 0.803571C6.52679 0.85119 6.5119 0.904761 6.48214 0.964285L4.95536 5.09821L8.49107 4.22321C8.53869 4.21131 8.57441 4.20536 8.59821 4.20536C8.71131 4.20536 8.8125 4.25 8.90179 4.33928Z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="nwd-heading"><b>Breaking News</b></span>
+                </div>
+                <div class="nwd-news-ticker-box">
+                    <div class="nwd-ticker-list">
+                        <div class="nwd-news-ticker-list-animated-text">
+                            <div class="line">
+                                <a href="/action.php">Local coming back
+                                    on street again after </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather">
+                    <span class="nwd-weather-icon">
+                        <svg classname="mzb-weather-icon mzb-weather-icon--cloud-moon-rain"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M14.604 10.57c-.287-1.743-1.637-3.07-3.27-3.07-.513 0-.996.14-1.43.375C9.18 6.745 8.004 6 6.667 6c-2.209 0-4 2.016-4 4.5 0 .023.008.052.008.075C1.15 10.917 0 12.431 0 14.25 0 16.322 1.492 18 3.333 18H14c1.842 0 3.333-1.678 3.333-3.75 0-1.838-1.175-3.36-2.729-3.68zm9.059-.08c-2.934.624-5.625-1.888-5.625-5.193 0-1.903.912-3.656 2.395-4.599.23-.145.171-.534-.087-.585A5.455 5.455 0 0019.242 0c-3.246 0-5.88 2.869-6.017 6.464 1.113.558 2.008 1.584 2.454 2.892 1.546.67 2.667 2.222 2.925 4.069.213.023.417.07.634.07 1.862 0 3.566-.947 4.691-2.498.175-.225-.008-.563-.266-.506zm-8.476 9.108c-.316-.201-.724-.084-.908.282l-1.525 3c-.183.36-.07.815.25 1.022a.615.615 0 00.33.098.66.66 0 00.579-.38l1.524-3c.18-.36.071-.815-.25-1.022zm-4 0c-.316-.201-.724-.084-.908.282l-1.525 3c-.183.36-.07.815.25 1.022a.615.615 0 00.33.098.66.66 0 00.579-.38l1.524-3c.18-.36.071-.815-.25-1.022zm-4 0c-.316-.201-.724-.084-.908.282l-1.525 3c-.183.36-.07.815.25 1.022a.615.615 0 00.33.098.66.66 0 00.579-.38l1.524-3c.18-.36.071-.815-.25-1.022zm-4 0c-.316-.201-.724-.084-.908.282l-1.525 3c-.183.36-.07.815.25 1.022a.615.615 0 00.33.098.66.66 0 00.579-.38l1.524-3c.18-.36.071-.815-.25-1.022z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="nwd-temperature">°</span>
+                    <div class="nwd-date">, May 17, 2024 in
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section1 -->
+        <div class="section1" id="section1">
+            <div class="s-container">
+                <div class="s-innersection">
+                    <div class="s-col1">
+                        <div class="s-col1-inner" id="section1-content">
+                            <div class="s-col1-banner">
+                                <div class="s-col1-post">
+
+                                    <div class="s-c1-post-content1">
+                                        <div class="s-c1-post-space">
+
+                                        </div>
+                                        <div class="s-c1-postInfo">
+                                            <div class="s-c1-post-meta">
+                                                <span class="s-c1-post-categories">
+                                                    <a href="/action.php" rel="category tag">Culture</a>
+                                                    <a href="/action.php" rel="category tag">Featured</a>
+                                                </span>
+                                            </div>
+                                            <h3 class="s-c1-post-title">
+                                                <a href="/action.php">Why
+                                                    reading newspapers are more preferred by older men’s?</a>
+                                            </h3>
+                                            <div class="s-c1-post-entry-meta">
+                                                <span class="s-c1-post-author">
+                                                    <img decoding="async" class="post-author-image"
+                                                        src="https://secure.gravatar.com/avatar/8aaa9947db49d8a3d4c422a054bf6770?s=96&amp;d=mm&amp;r=g ">
+
+                                                    <a href="/action.php" title="adi123" rel="author">adi123@</a>
+                                                </span>
+                                                <span class="s-c1-post-date">
+                                                    <svg class="mzb-icon mzb-icon--calender"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                                        <path
+                                                            d="M1.892 12.929h10.214V5.5H1.892v7.429zm2.786-8.822v-2.09a.226.226 0 00-.066-.166.226.226 0 00-.166-.065H3.98a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.022.122.065.166.044.044.1.065.167.065h.465a.226.226 0 00.166-.065.226.226 0 00.066-.167zm5.571 0v-2.09a.226.226 0 00-.065-.166.226.226 0 00-.167-.065h-.464a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.021.122.065.166.043.044.099.065.167.065h.464a.226.226 0 00.167-.065.226.226 0 00.065-.167zm2.786-.464v9.286c0 .251-.092.469-.276.652a.892.892 0 01-.653.276H1.892a.892.892 0 01-.653-.275.892.892 0 01-.276-.653V3.643c0-.252.092-.47.276-.653a.892.892 0 01.653-.276h.929v-.696c0-.32.113-.593.34-.82.228-.227.501-.34.82-.34h.465c.319 0 .592.113.82.34.227.227.34.5.34.82v.696h2.786v-.696c0-.32.114-.593.34-.82.228-.227.501-.34.82-.34h.465c.32 0 .592.113.82.34.227.227.34.5.34.82v.696h.93c.25 0 .468.092.652.276a.892.892 0 01.276.653z">
+                                                        </path>
+                                                    </svg>
+                                                    <a href="/action.php"> 18.10.2022 </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="s-col1-post">
+
+                                    <div class="s-c1-post-content2">
+                                        <div class="s-c1-post-space">
+
+                                        </div>
+                                        <div class="s-c1-postInfo">
+                                            <div class="s-c1-post-meta">
+                                                <span class="s-c1-post-categories">
+                                                    <a href="/action.php" rel="category tag">Featured</a>
+                                                    <a href="/action.php" rel="category tag">Lifestyle</a>
+                                                </span>
+                                            </div>
+                                            <h3 class="s-c1-post-title">
+                                                <a href="/action.php">Jane became one of the most followed person in
+                                                    Instagram with 1Million plus followers</a>
+                                            </h3>
+                                            <div class="s-c1-post-entry-meta">
+                                                <span class="s-c1-post-author">
+                                                    <img decoding="async" class="post-author-image"
+                                                        src="https://secure.gravatar.com/avatar/8aaa9947db49d8a3d4c422a054bf6770?s=96&amp;d=mm&amp;r=g ">
+
+                                                    <a href="/action.php" title="adi124" rel="author">adi124@</a>
+                                                </span>
+                                                <span class="s-c1-post-date">
+                                                    <svg class="mzb-icon mzb-icon--calender"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                                        <path
+                                                            d="M1.892 12.929h10.214V5.5H1.892v7.429zm2.786-8.822v-2.09a.226.226 0 00-.066-.166.226.226 0 00-.166-.065H3.98a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.022.122.065.166.044.044.1.065.167.065h.465a.226.226 0 00.166-.065.226.226 0 00.066-.167zm5.571 0v-2.09a.226.226 0 00-.065-.166.226.226 0 00-.167-.065h-.464a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.021.122.065.166.043.044.099.065.167.065h.464a.226.226 0 00.167-.065.226.226 0 00.065-.167zm2.786-.464v9.286c0 .251-.092.469-.276.652a.892.892 0 01-.653.276H1.892a.892.892 0 01-.653-.275.892.892 0 01-.276-.653V3.643c0-.252.092-.47.276-.653a.892.892 0 01.653-.276h.929v-.696c0-.32.113-.593.34-.82.228-.227.501-.34.82-.34h.465c.319 0 .592.113.82.34.227.227.34.5.34.82v.696h2.786v-.696c0-.32.114-.593.34-.82.228-.227.501-.34.82-.34h.465c.32 0 .592.113.82.34.227.227.34.5.34.82v.696h.93c.25 0 .468.092.652.276a.892.892 0 01.276.653z">
+                                                        </path>
+                                                    </svg>
+                                                    <a href="/action.php"> 18.10.2022 </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="s-col1-post-2-3">
+                                    <div class="s-col1-post">
+
+                                        <div class="s-c1-post-content3">
+                                            <div class="s-c1-post-space2">
+
+                                            </div>
+                                            <div class="s-c1-postInfo2">
+                                                <div class="s-c1-post-meta">
+                                                    <span class="s-c1-post-categories">
+                                                        <a href="/action.php" rel="category tag">Featured</a>
+                                                        <a href="/action.php" rel="category tag">Food</a>
+                                                    </span>
+                                                </div>
+                                                <h3 class="s-c1-post-title">
+                                                    <a href="/action.php">What are the best type coffee in the
+                                                        world?</a>
+                                                </h3>
+                                                <div class="s-c1-post-entry-meta">
+                                                    <span class="s-c1-post-author">
+                                                        <img decoding="async" class="post-author-image"
+                                                            src="https://secure.gravatar.com/avatar/8aaa9947db49d8a3d4c422a054bf6770?s=96&amp;d=mm&amp;r=g ">
+
+                                                        <a href="/action.php" title="adi125" rel="author">adi125@</a>
+                                                    </span>
+                                                    <span class="s-c1-post-date">
+                                                        <svg class="mzb-icon mzb-icon--calender"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                                            <path
+                                                                d="M1.892 12.929h10.214V5.5H1.892v7.429zm2.786-8.822v-2.09a.226.226 0 00-.066-.166.226.226 0 00-.166-.065H3.98a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.022.122.065.166.044.044.1.065.167.065h.465a.226.226 0 00.166-.065.226.226 0 00.066-.167zm5.571 0v-2.09a.226.226 0 00-.065-.166.226.226 0 00-.167-.065h-.464a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.021.122.065.166.043.044.099.065.167.065h.464a.226.226 0 00.167-.065.226.226 0 00.065-.167zm2.786-.464v9.286c0 .251-.092.469-.276.652a.892.892 0 01-.653.276H1.892a.892.892 0 01-.653-.275.892.892 0 01-.276-.653V3.643c0-.252.092-.47.276-.653a.892.892 0 01.653-.276h.929v-.696c0-.32.113-.593.34-.82.228-.227.501-.34.82-.34h.465c.319 0 .592.113.82.34.227.227.34.5.34.82v.696h2.786v-.696c0-.32.114-.593.34-.82.228-.227.501-.34.82-.34h.465c.32 0 .592.113.82.34.227.227.34.5.34.82v.696h.93c.25 0 .468.092.652.276a.892.892 0 01.276.653z">
+                                                            </path>
+                                                        </svg>
+                                                        <a href="/action.php"> 18.10.2022 </a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s-col1-post">
+                                        <div class="s-c1-post-content4">
+                                            <div class="s-c1-post-space2">
+
+                                            </div>
+                                            <div class="s-c1-postInfo2">
+                                                <div class="s-c1-post-meta">
+                                                    <span class="s-c1-post-categories">
+                                                        <a href="/action.php" rel="category tag">Featured</a>
+                                                        <a href="/action.php" rel="category tag">Health</a>
+                                                    </span>
+                                                </div>
+                                                <h3 class="s-c1-post-title">
+                                                    <a href="/action.php">Practicing gratitude regularly can make you
+                                                        less
+                                                        stressed and sleep better</a>
+                                                </h3>
+                                                <div class="s-c1-post-entry-meta">
+                                                    <span class="s-c1-post-author">
+                                                        <img decoding="async" class="post-author-image"
+                                                            src="https://secure.gravatar.com/avatar/8aaa9947db49d8a3d4c422a054bf6770?s=96&amp;d=mm&amp;r=g ">
+
+                                                        <a href="/action.php" title="adi126" rel="author">adi126@</a>
+                                                    </span>
+                                                    <span class="s-c1-post-date">
+                                                        <svg class="mzb-icon mzb-icon--calender"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                                            <path
+                                                                d="M1.892 12.929h10.214V5.5H1.892v7.429zm2.786-8.822v-2.09a.226.226 0 00-.066-.166.226.226 0 00-.166-.065H3.98a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.022.122.065.166.044.044.1.065.167.065h.465a.226.226 0 00.166-.065.226.226 0 00.066-.167zm5.571 0v-2.09a.226.226 0 00-.065-.166.226.226 0 00-.167-.065h-.464a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.021.122.065.166.043.044.099.065.167.065h.464a.226.226 0 00.167-.065.226.226 0 00.065-.167zm2.786-.464v9.286c0 .251-.092.469-.276.652a.892.892 0 01-.653.276H1.892a.892.892 0 01-.653-.275.892.892 0 01-.276-.653V3.643c0-.252.092-.47.276-.653a.892.892 0 01.653-.276h.929v-.696c0-.32.113-.593.34-.82.228-.227.501-.34.82-.34h.465c.319 0 .592.113.82.34.227.227.34.5.34.82v.696h2.786v-.696c0-.32.114-.593.34-.82.228-.227.501-.34.82-.34h.465c.32 0 .592.113.82.34.227.227.34.5.34.82v.696h.93c.25 0 .468.092.652.276a.892.892 0 01.276.653z">
+                                                            </path>
+                                                        </svg>
+                                                        <a href="/action.php"> 18.10.2022 </a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-col2">
+                        <div class="s-col2-innersection">
+                            <div class="s-c2-tab-post" date-active-tab="latest">
+                                <div class="s-c2-tab-controls">
+                                    <div data-tab="latest" class="s-c2-tab-title active">Latest</div>
+                                    <div data-tab="popular" class="s-c2-tab-title">Popular</div>
+                                </div>
+                                <div class="s-c2--posts" data-posts="latest" id="section2-content">
+                                    <div class="s-c2-post no-thumbnail">
+                                        <div class="s-c2-post-content">
+                                            <h3 class="s-c2-post-title"><a href="/action.php">Tuesday
+                                                </a></h3>
+                                            <div class="s-c2-post-entry-meta">
+                                                <span class="s-c2-post-date">
+                                                    <svg class="s-c2-icon mzb-icon--calender"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                                        <path
+                                                            d="M1.892 12.929h10.214V5.5H1.892v7.429zm2.786-8.822v-2.09a.226.226 0 00-.066-.166.226.226 0 00-.166-.065H3.98a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.022.122.065.166.044.044.1.065.167.065h.465a.226.226 0 00.166-.065.226.226 0 00.066-.167zm5.571 0v-2.09a.226.226 0 00-.065-.166.226.226 0 00-.167-.065h-.464a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.021.122.065.166.043.044.099.065.167.065h.464a.226.226 0 00.167-.065.226.226 0 00.065-.167zm2.786-.464v9.286c0 .251-.092.469-.276.652a.892.892 0 01-.653.276H1.892a.892.892 0 01-.653-.275.892.892 0 01-.276-.653V3.643c0-.252.092-.47.276-.653a.892.892 0 01.653-.276h.929v-.696c0-.32.113-.593.34-.82.228-.227.501-.34.82-.34h.465c.319 0 .592.113.82.34.227.227.34.5.34.82v.696h2.786v-.696c0-.32.114-.593.34-.82.228-.227.501-.34.82-.34h.465c.32 0 .592.113.82.34.227.227.34.5.34.82v.696h.93c.25 0 .468.092.652.276a.892.892 0 01.276.653z">
+                                                        </path>
+                                                    </svg>
+                                                    <a href="/action.php">
+                                                        24.02.2024
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s-c2-post ">
+                                        <div class="s-c2-featured-image">
+                                            <a href="/action.php"
+                                                alt="ICC T20 World Cup 2022 Schedule update finally released">
+                                                <img decoding="async"
+                                                    src="https://yulitnews.ru/wp-content/uploads/2022/10/cricket-stadium-1-2.jpg"
+                                                    alt="ICC T20 World Cup 2022 Schedule update finally released">
+                                            </a>
+                                        </div>
+                                        <div class="s-c2-post-content">
+                                            <h3 class="s-c2-post-title">
+                                                <a href="/action.php">ICC
+                                                    T20 World Cup 2022 Schedule update finally released
+                                                </a>
+                                            </h3>
+                                            <div class="s-c2-post-entry-meta">
+                                                <span class="s-c2-post-date">
+                                                    <svg class="s-c2-icon mzb-icon--calender"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                                        <path
+                                                            d="M1.892 12.929h10.214V5.5H1.892v7.429zm2.786-8.822v-2.09a.226.226 0 00-.066-.166.226.226 0 00-.166-.065H3.98a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.022.122.065.166.044.044.1.065.167.065h.465a.226.226 0 00.166-.065.226.226 0 00.066-.167zm5.571 0v-2.09a.226.226 0 00-.065-.166.226.226 0 00-.167-.065h-.464a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.021.122.065.166.043.044.099.065.167.065h.464a.226.226 0 00.167-.065.226.226 0 00.065-.167zm2.786-.464v9.286c0 .251-.092.469-.276.652a.892.892 0 01-.653.276H1.892a.892.892 0 01-.653-.275.892.892 0 01-.276-.653V3.643c0-.252.092-.47.276-.653a.892.892 0 01.653-.276h.929v-.696c0-.32.113-.593.34-.82.228-.227.501-.34.82-.34h.465c.319 0 .592.113.82.34.227.227.34.5.34.82v.696h2.786v-.696c0-.32.114-.593.34-.82.228-.227.501-.34.82-.34h.465c.32 0 .592.113.82.34.227.227.34.5.34.82v.696h.93c.25 0 .468.092.652.276a.892.892 0 01.276.653z">
+                                                        </path>
+                                                    </svg>
+                                                    <a href="/action.php">
+                                                        21.10.2022
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s-c2-post ">
+                                        <div class="s-c2-featured-image">
+                                            <a href="/action.php"
+                                                alt="Tropical depression: Mexico’s pacific coast gets hit by unexpected hurricane">
+                                                <img decoding="async"
+                                                    src="https://yulitnews.ru/wp-content/uploads/2022/10/pexels-photo-1739855-1-2.jpg"
+                                                    alt="Tropical depression: Mexico’s pacific coast gets hit by unexpected hurricane">
+                                            </a>
+                                        </div>
+                                        <div class="s-c2-post-content">
+                                            <h3 class="s-c2-post-title"><a href="/action.php">Tropical
+                                                    depression: Mexico’s pacific coast gets hit by unexpected
+                                                    hurricane</a></h3>
+                                            <div class="s-c2-post-entry-meta">
+                                                <span class="s-c2-post-date">
+                                                    <svg class="s-c2-icon  s-c2-icon--calender"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                                        <path
+                                                            d="M1.892 12.929h10.214V5.5H1.892v7.429zm2.786-8.822v-2.09a.226.226 0 00-.066-.166.226.226 0 00-.166-.065H3.98a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.022.122.065.166.044.044.1.065.167.065h.465a.226.226 0 00.166-.065.226.226 0 00.066-.167zm5.571 0v-2.09a.226.226 0 00-.065-.166.226.226 0 00-.167-.065h-.464a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.021.122.065.166.043.044.099.065.167.065h.464a.226.226 0 00.167-.065.226.226 0 00.065-.167zm2.786-.464v9.286c0 .251-.092.469-.276.652a.892.892 0 01-.653.276H1.892a.892.892 0 01-.653-.275.892.892 0 01-.276-.653V3.643c0-.252.092-.47.276-.653a.892.892 0 01.653-.276h.929v-.696c0-.32.113-.593.34-.82.228-.227.501-.34.82-.34h.465c.319 0 .592.113.82.34.227.227.34.5.34.82v.696h2.786v-.696c0-.32.114-.593.34-.82.228-.227.501-.34.82-.34h.465c.32 0 .592.113.82.34.227.227.34.5.34.82v.696h.93c.25 0 .468.092.652.276a.892.892 0 01.276.653z">
+                                                        </path>
+                                                    </svg>
+                                                    <a href="/action.php">
+                                                        20.10.2022
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s-c2-post ">
+                                        <div class="s-c2-featured-image">
+                                            <a href="/action.php"
+                                                alt="Local coming back on street again after flood descends">
+                                                <img decoding="async"
+                                                    src="https://yulitnews.ru/wp-content/uploads/2022/10/pexels-biplab-sau-10872328-1-2.jpg"
+                                                    alt="Local coming back on street again after flood descends">
+                                            </a>
+                                        </div>
+                                        <div class="s-c2-post-content">
+                                            <h3 class="s-c2-post-title">
+                                                <a href="/action.php">Local
+                                                    coming back on street again after flood descends
+                                                </a>
+                                            </h3>
+                                            <div class="s-c2-post-entry-meta">
+                                                <span class="s-c2-post-date">
+                                                    <svg class="s-c2-icon s-c2-icon--calender"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                                        <path
+                                                            d="M1.892 12.929h10.214V5.5H1.892v7.429zm2.786-8.822v-2.09a.226.226 0 00-.066-.166.226.226 0 00-.166-.065H3.98a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.022.122.065.166.044.044.1.065.167.065h.465a.226.226 0 00.166-.065.226.226 0 00.066-.167zm5.571 0v-2.09a.226.226 0 00-.065-.166.226.226 0 00-.167-.065h-.464a.226.226 0 00-.167.065.226.226 0 00-.065.167v2.09c0 .067.021.122.065.166.043.044.099.065.167.065h.464a.226.226 0 00.167-.065.226.226 0 00.065-.167zm2.786-.464v9.286c0 .251-.092.469-.276.652a.892.892 0 01-.653.276H1.892a.892.892 0 01-.653-.275.892.892 0 01-.276-.653V3.643c0-.252.092-.47.276-.653a.892.892 0 01.653-.276h.929v-.696c0-.32.113-.593.34-.82.228-.227.501-.34.82-.34h.465c.319 0 .592.113.82.34.227.227.34.5.34.82v.696h2.786v-.696c0-.32.114-.593.34-.82.228-.227.501-.34.82-.34h.465c.32 0 .592.113.82.34.227.227.34.5.34.82v.696h.93c.25 0 .468.092.652.276a.892.892 0 01.276.653z">
+                                                        </path>
+                                                    </svg>
+                                                    <a
+                                                        href="https://yulitnews.ru/2022/10/20/local-coming-back-on-street-after-flood-descends/">
+                                                        20.10.2022
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <script src="script.js"></script> -->
+
+    <!-- <script src="script.js"></script> -->
+    <footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+        </ul>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+        </ul>
+        <p>&copy;2024 Aditya Anand | All Rights Reserved</p>
+    </footer>
+
+
+
+    <!-- footer related code -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+    <!--toggle code-->
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            const menu = document.querySelector('#menu-primary');
+            const crossIcon = document.querySelector('.cross-icon');
+            const menuToggle = document.querySelector('.menu-toggle');
+
+            if (menu.style.display === 'flex') {
+                menu.style.display = 'none';
+                crossIcon.style.display = 'none';
+                menuToggle.style.display = 'block';
+            } else {
+                menu.style.display = 'flex';
+                crossIcon.style.display = 'block';
+                menuToggle.style.display = 'none';
+            }
+        });
+
+        document.querySelector('.cross-icon').addEventListener('click', function () {
+            const menu = document.querySelector('#menu-primary');
+            const crossIcon = document.querySelector('.cross-icon');
+            const menuToggle = document.querySelector('.menu-toggle');
+
+            if (menu.style.display === 'flex') {
+                menu.style.display = 'none';
+                crossIcon.style.display = 'none';
+                menuToggle.style.display = 'block';
+            }
+        });
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

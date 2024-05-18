@@ -1,2 +1,2 @@
-# codingTasks
-Contain code files of Task1 and Task2 
+# codingClub-Tasks
+Includes the Task1 code file
